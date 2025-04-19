@@ -1,0 +1,102 @@
+/* Fonts & Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+}
+
+/* Posts */
+.post {
+    margin-bottom: 40px;
+}
+
+.post h2 {
+    color: #0f172a;
+}
+
+.post p {
+    color: #334155;
+    line-height: 1.6;
+}
+
+.post a {
+    color: #3b82f6;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.post a:hover {
+    text-decoration: underline;
+    color: #2563eb;
+}
+
+small {
+    color: #64748b;
+}
+
+/* Footer */
+footer {
+    background-color: #e2e8f0;
+    color: #475569;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    border-top: 1px solid #cbd5e1;
+}
+
+/* Form styles */
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2563eb;
+}
