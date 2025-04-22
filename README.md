@@ -16,7 +16,7 @@ A minimalist blog system built with PHP and MySQL, styled with Bootstrap.
 
 ## 👨‍💻 Author
 **Hurley Jules**  
-💻 [yourdomain.com](https://yourdomain.com)  
+💻 [hurleyjules66.github.io/portfolio/](https://hurleyjules66.github.io/portfolio/)  
 📬 hurleyjules66@gmail.com
 
 ## ✅ Live Demo
